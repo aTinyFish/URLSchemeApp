@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TFViewController.h"
 
 @interface TFAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) TFViewController *viewController;
 
 @end
